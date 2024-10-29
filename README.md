@@ -1,5 +1,5 @@
 # Miniprojekt
-Miniprojekt
+## INTRODUCTION TO THE PROJECT (WIP)
 
 
 
@@ -26,12 +26,18 @@ This provides an overview of the different room types available in our hotel, al
 # Microservices 
 This provides an overview over all of the microservices that's connected to project
 
-## Database creation microservice
-This microservice provides an easy method for the creation of all the different databases used by the microservices
+* ## Database creation microservice
+  This microservice provides an easy method for the creation of all the different databases used by the microservices
 
-( Write about how you can run it using docker - [ docker run -it -v miniprojekt:/app/data planteig/miniprojekt:database-creation-service ]
+  The databases is stored using volumes to allow access for all microservices running in containers
+  To initialize the databases, run following code in the terminal 
 
-Link to repository - ( W.I.P ) :)
+  ```
+  docker run -it -v miniprojekt:/app/data planteig/miniprojekt:database-creation-service
+  ```
+  Link to repository - https://github.com/Planteig1/database_creation_service
+
+* ## NEXT MICROSERVICE
 
 
 
