@@ -19,3 +19,21 @@ This provides an overview of the different room types available in our hotel, al
 | **Standard Double**| 15              |
 | **Junior Suite**   | 7               |
 
+
+
+
+
+# Microservices 
+This provides an overview over all of the microservices that's connected to project
+
+## Database creation microservice
+This microservice provides an easy method for the creation of all the different databases used by the microservices
+
+( Write about how you can run it using docker - [ docker run -it -v miniprojekt:/app/data planteig/miniprojekt:database-creation-service ]
+
+Link to repository - ( W.I.P ) :)
+
+
+
+
+
