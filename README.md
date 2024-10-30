@@ -15,7 +15,7 @@ This provides an overview of the different room types available in our hotel, al
 | **Grand Lit**      | 6               |
 | **Standard Single**| 20              |
 | **LOFT Suite**     | 4               |
-| **Suite**          | 5               |
+| **Suite**          | 5               |This application is a Flask-based REST API that handles CRUD operations for room pricing information.
 | **Standard Double**| 15              |
 | **Junior Suite**   | 7               |
 
@@ -41,6 +41,11 @@ This provides an overview over all of the microservices that's connected to proj
   This application is a Flask-based REST API that handles CRUD operations for the guest database. 
 
   Link to repository - https://github.com/LucasFJ-2023/microservices_guest.git
+
+  * ## Room pricing microservices
+  This application is a Flask-based REST API that handles CRUD operations for room pricing information.
+
+  Link to repository - https://github.com/LucasFJ-2023/microservice_room_prices.git
 
 
 
