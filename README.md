@@ -42,7 +42,7 @@ This provides an overview over all of the microservices that's connected to proj
 
   Link to repository - https://github.com/LucasFJ-2023/microservices_guest.git
 
-  * ## Room pricing microservices
+* ## Room pricing microservices
   This application is a Flask-based REST API that handles CRUD operations for room pricing information.
 
   Link to repository - https://github.com/LucasFJ-2023/microservice_room_prices.git
