@@ -37,6 +37,11 @@ This provides an overview over all of the microservices that's connected to proj
   ```
   Link to repository - https://github.com/Planteig1/database_creation_service
 
+* ## API Gateway
+  This API Gateway serves as an intermediary for various microservices in a hotel management system. It routes requests to the appropriate     services for managing guests, bills, bookings, room pricing, and room availability.
+
+  Link to repository - https://github.com/Planteig1/API-gateway
+
 * ## Guests microservices
   This application is a Flask-based REST API that handles CRUD operations for the guest database. 
 
@@ -52,7 +57,22 @@ This provides an overview over all of the microservices that's connected to proj
 
   Link to repository - https://github.com/christinetofft/bill-service.git
 
-* ## 
+* ## Booking microservice
+  This Flask-based microservice allows for creating a new booking and checks for room availability.
+
+  Link to repository - https://github.com/Planteig1/booking-service
+
+* ## Data retrieval microservice
+  This Flask-based microservice allows end-users to retrieve various datasets related to bookings, guests, bills, room pricing, and rooms.
+
+  Link to repository - https://github.com/Planteig1/data-retrieval-service
+
+* ## Room Service
+  This Flask-based microservice manages room availability, cleaning status, and provides a list of all rooms.
+
+  Link to repository - https://github.com/Planteig1/room-service
+
+
 
 
 
