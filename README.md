@@ -55,3 +55,26 @@ This provides an overview over all of the microservices that's connected to proj
 
 
 
+
+
+
+##DOCKER COMMANDS
+docker run -it -v miniprojekt:/app/data database-creation-service      
+
+docker run -d --name gateway-service --network miniprojekt -p 5000:5000 -v miniprojekt:/app/data gateway-service
+
+docker run -d --name room-service --network miniprojekt -p 5001:5000 -v miniprojekt:/app/data room-service
+
+docker run -d --name booking-service --network miniprojekt -v miniprojekt:/app/data -p 5002:5000 booking-service
+
+docker run -d --name room-pricing-service --network miniprojekt -v miniprojekt:/app/data -p 5003:5000 lucas3390/room-pricing-service:latest
+
+
+
+
+
+
+
+
+
+
