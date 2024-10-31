@@ -52,6 +52,8 @@ This provides an overview over all of the microservices that's connected to proj
 
   Link to repository - https://github.com/christinetofft/bill-service.git
 
+* ## 
+
 
 
 
@@ -67,7 +69,13 @@ docker run -d --name room-service --network miniprojekt -p 5001:5000 -v miniproj
 
 docker run -d --name booking-service --network miniprojekt -v miniprojekt:/app/data -p 5002:5000 booking-service
 
-docker run -d --name room-pricing-service --network miniprojekt -v miniprojekt:/app/data -p 5003:5000 lucas3390/room-pricing-service:latest
+docker run -d --name room-pricing-service --network miniprojekt -v miniprojekt:/app/data -p 5003:5000 room-pricing-service
+
+docker run -d --name data-retriveal-service --network miniprojekt -v miniprojekt:/app/data -p 5004:5000 data-retriveal-service 
+
+docker run -d --name guests-service --network miniprojekt -v miniprojekt:/app/data -p 5005:5000 guests-service
+
+docker run -d --name bill-service --network miniprojekt -v miniprojekt:/app/data -p 5006:5000 bill-service
 
 
 
