@@ -47,6 +47,10 @@ This provides an overview over all of the microservices that's connected to proj
 
   Link to repository - https://github.com/LucasFJ-2023/microservice_room_prices.git
 
+* ## Bill microservices
+  This application is a Flask-based REST API that handles CRUD operations for bill information.
+
+  Link to repository - https://github.com/christinetofft/bill-service.git
 
 
 
